@@ -1,0 +1,8 @@
+# vim
+*.un~
+*.DS_Store
+
+# go
+*.sum
+predixy_exporter
+
