@@ -27,4 +27,3 @@ RUN addgroup -g 1000 rf && \
 USER rf
 
 ENTRYPOINT ["/usr/local/bin/predixy_exporter"]
-
