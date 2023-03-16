@@ -7,7 +7,7 @@ COPY go.sum /src/go.sum
 COPY main.go /src/main.go
 COPY exporter /src/exporter
 
-RUN go env -w GOPROXY=https://goproxy.io,direct && \
+RUN go env -w GOPROXY=https://goproxy.cn,direct && \
     CGO_ENABLED=0 GOOS=linux GOARCH=amd64 go build -a -o /src/predixy_exporter
 
 
